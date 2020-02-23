@@ -1,0 +1,42 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.h24.readservice.patient",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.7.0",
+    "applicationType": "microservice",
+    "baseName": "patientreadservice",
+    "packageName": "com.h24.readservice.patient",
+    "packageFolder": "com/h24/readservice/patient",
+    "serverPort": "21000",
+    "authenticationType": "uaa",
+    "uaaBaseName": "uaaservice",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NjExZjJhMjJhOTljNWI0MTU0YWVlZDc5OTM0ZDE1ZGRhZjkwYzM5NWIzNDA5OTMwYTcyZjJhMjQwMjdhZDRlODk0ZjM4MGM4YThkYjQ5MzZmOTQ0NTQ1NmJhMWNlNmU0N2YzNDU1ODRmNzg3MzdkYzJhNTQ4YjFjNTc0YmE1M2E=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1582475035960,
+    "testFrameworks": ["gatling"],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en", "hy"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
